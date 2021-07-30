@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+input.error,
+input.error:focus {
+    border: 0.1rem red solid;
+}
+
+.center-div {
+    width: 80vw;
+    height: 300px;
+    text-align: center;
+}
+
+.button-primary {
+    width: 100%;
+}
+
+fieldset, input, select, textarea {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.madeBy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+}
+
+#errorLabel {
+    color: red; 
+    font-size: smaller;
+    display: none;
+}
+
+.d-block {
+    display: block!important;
+}
