@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div class="center-div">
-		<h1>Massive Contracts Generate</h1>
+		<h1>Massive Contracts Generator</h1>
 
 		<form>
 			<fieldset>
