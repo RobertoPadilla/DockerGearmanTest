@@ -18,10 +18,10 @@
 	<div class="center-div">
 		<h1>Massive Contracts Generator</h1>
 
-		<form>
+		<form method="POST" action="/gearmanAction">
 			<fieldset>
 				<label for="contractNumber">How many contracts do you want?</label>
-				<input type="text" pattern="[0-9]{1,5}" id="contractNumber" oninput="onInputContractNumber()"">
+				<input type="text" pattern="[0-9]{1,5}" id="contractNumber" name="contractNumber" oninput="onInputContractNumber()"">
 				<input id="btnSend" class="button-primary" type="submit" value="Send">
 			</fieldset>
 		</form>
